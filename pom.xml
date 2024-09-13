@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.tangjiabin.pft</groupId>
+    <artifactId>pft-sdk</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>pft-sdk</name>
+    <description>票付通SDK</description>
+    <url>https://github.com/JiabinTang/pft-sdk</url>
+    <inceptionYear>2024</inceptionYear>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <scm>
+        <connection>scm:git:git://github.com/JiabinTang/pft-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com:JiabinTang/pft-sdk.git</developerConnection>
+        <url>https://github.com/JiabinTang/pft-sdk</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/JiabinTang/pft-sdk/issues</url>
+    </issueManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+        <snapshotRepository>
+            <id>ossrh-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>tangjiabin</id>
+            <name>唐加彬</name>
+            <email>me@tangjiabin.cn</email>
+            <organization>个人</organization>
+            <organizationUrl>https://www.tangjiabin.cn</organizationUrl>
+        </developer>
+    </developers>
+
+</project>
