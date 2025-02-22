@@ -24,7 +24,6 @@ public class ScenicSpotServiceTests {
 
     public static void main(String[] args) {
         System.out.println("ScenicSpotServiceTest");
-
         // 创建票付通配置
         PFTConfig pftConfig = new PFTConfig();
         pftConfig.setUrl("http://open.12301dev.com/openService/pftMX.php");

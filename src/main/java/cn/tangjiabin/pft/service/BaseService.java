@@ -7,6 +7,7 @@ import cn.tangjiabin.pft.soap.SoapContext;
 
 import javax.xml.soap.SOAPMessage;
 
+
 /**
  * 基础服务
  *

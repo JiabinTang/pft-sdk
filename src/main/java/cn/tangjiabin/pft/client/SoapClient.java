@@ -2,15 +2,12 @@ package cn.tangjiabin.pft.client;
 
 import cn.tangjiabin.pft.config.PFTConfig;
 
+
 import javax.xml.soap.SOAPConnection;
 import javax.xml.soap.SOAPConnectionFactory;
 import javax.xml.soap.SOAPException;
 import javax.xml.soap.SOAPMessage;
 import java.io.IOException;
-import java.net.Authenticator;
-import java.net.InetSocketAddress;
-import java.net.PasswordAuthentication;
-import java.net.Proxy;
 import java.net.URL;
 
 /**
@@ -41,6 +38,5 @@ public class SoapClient {
         SOAPConnectionFactory soapConnectionFactory = SOAPConnectionFactory.newInstance();
         SOAPConnection soapConnection = soapConnectionFactory.createConnection();
         return soapConnection.call(request, new URL(config.getUrl()));
-
     }
 }

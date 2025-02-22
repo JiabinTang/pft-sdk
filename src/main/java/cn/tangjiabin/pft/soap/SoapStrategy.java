@@ -6,6 +6,7 @@ import cn.tangjiabin.pft.model.response.Data;
 import javax.xml.soap.SOAPException;
 import javax.xml.soap.SOAPMessage;
 
+
 /**
  * Soap策略接口
  *
