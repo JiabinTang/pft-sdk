@@ -33,6 +33,9 @@ public class ScenicSpotServiceTests {
         // 创建票付通工厂
         PFTFactory pftFactory = new PFTFactory(pftConfig);
         ScenicSpotService scenicSpotService = pftFactory.getScenicSpotService();
+        TicketService ticketService = pftFactory.getTicketService();
+        OrderService orderService = pftFactory.getOrderService();
+        MemberService memberService = pftFactory.getMemberService();
 
         // 创建产品列表请求
         scenicSpotList(scenicSpotService);
